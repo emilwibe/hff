@@ -41,6 +41,7 @@
 }
 .footer-widget {
   align-self: flex-start;
+  margin-left: auto;
 }
 .footer-widget * {
   text-align: right;
