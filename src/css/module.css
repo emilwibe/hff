@@ -22,6 +22,9 @@
   right: 0;
   top: 0;
 }
+.fyn-wrapper {
+  transform: scale(10) translate(-60px, -130px);
+}
 .fyn-deco .opacified {
   opacity: 0.26;
 }
@@ -32,8 +35,5 @@
 @media screen and (min-width: 768px) {
   .logo-bottom {
     margin-left: 100px;
-  }
-  .fyn-deco {
-    width: 50%;
   }
 }
