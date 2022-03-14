@@ -14,5 +14,5 @@ add_theme_support('post-thumbnail');
 add_action('wp_enqueue_scripts', 'hff_enqueues');
 
 function hff_enqueues(){
-    wp_enqueue_style('main-styles', get_template_directory_uri() . '/dist/core.min,.css');
+    wp_enqueue_style('main-styles', get_template_directory_uri() . '/dist/core.min.css');
 }
