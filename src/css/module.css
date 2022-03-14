@@ -50,3 +50,7 @@
   font-weight: 400;
   text-transform: uppercase;
 }
+.footer-widget a {
+  color: #000;
+  text-decoration: none;
+}
