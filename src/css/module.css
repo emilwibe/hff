@@ -16,7 +16,7 @@
   display: block;
   width: 200px;
 }
-.fyn-deco {
+.fyn-deco .fyn-wrapper {
   position: absolute;
   right: 0;
   top: -200px;
