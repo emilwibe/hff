@@ -6,6 +6,7 @@
   background-color: var(--color-yellow-dark);
 }
 .footer.primary > div {
+  align-items: center;
   display: flex;
   justify-content: space-between;
   padding-bottom: 60px;
@@ -20,9 +21,6 @@
   position: absolute;
   right: 0;
   top: -200px;
-}
-.fyn-deco .fyn-wrapper {
-  
 }
 .fyn-deco .opacified {
   opacity: 0.26;
