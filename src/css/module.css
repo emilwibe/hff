@@ -10,6 +10,9 @@
 .fotter.primary > div {
   position: relative;
 }
+.logo-bottom {
+  width: 200px;
+}
 .fyn-deco {
   opacity: 0.26;
 }

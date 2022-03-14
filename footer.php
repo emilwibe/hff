@@ -1,6 +1,6 @@
 <footer class="footer primary">
     <div class="l-wrapper xl">
-        <svg width="100%" height="100%" viewBox="0 0 923 1283" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-miterlimit:10;">
+        <svg class="logo-bottom" viewBox="0 0 923 1283" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-miterlimit:10;">
             <g id="Layer-1" serif:id="Layer 1" transform="matrix(4.16667,0,0,4.16667,-114.337,-124.425)">
                 <g transform="matrix(-1,0,0,1,276.354,-0.312)">
                     <rect x="27.441" y="30.174" width="221.472" height="307.908" style="fill:rgb(29,29,27);" />
