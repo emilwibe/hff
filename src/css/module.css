@@ -20,6 +20,7 @@
   position: absolute;
   right: 0;
   top: -200px;
+  transform: scale(6);
 }
 .fyn-deco .opacified {
   opacity: 0.26;
