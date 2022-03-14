@@ -20,6 +20,7 @@
   .fyn-deco {
     position: absolute;
     right: 0;
+    top: -400px;
     width: 50%;
   }
 }
