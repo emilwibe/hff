@@ -1,0 +1,7 @@
+.l-wrapper {
+    margin: 0 auto;
+    width: calc(100% - 100px);
+}
+.l-wrapper.xl {
+    max-width: 1400px;
+}

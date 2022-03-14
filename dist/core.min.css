@@ -1,2 +1,2 @@
-:root{--color-yellow-dark:#f2b407}*{box-sizing:border-box}body,html{margin:0}.footer.primary{background-color:var(--color-yellow-dark);padding-bottom:60px;padding-top:60px}
+:root{--color-yellow-dark:#f2b407}*{box-sizing:border-box}body,html{margin:0}.l-wrapper{margin:0 auto;width:calc(100% - 100px)}.l-wrapper.xl{max-width:1400px}.footer.primary{background-color:var(--color-yellow-dark);padding-bottom:60px;padding-top:60px}
 /*# sourceMappingURL=core.min.css.map */
