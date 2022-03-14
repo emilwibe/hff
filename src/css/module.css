@@ -37,6 +37,9 @@
     margin-left: 100px;
   }
 }
+.footer-widget {
+  align-self: flex-start;
+}
 .footer-widget * {
   text-align: right;
 }
