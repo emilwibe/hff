@@ -37,3 +37,11 @@
     margin-left: 100px;
   }
 }
+.footer-widget * {
+  text-align: right;
+}
+.footer-widget h3 {
+  font-size: 42px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
