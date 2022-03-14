@@ -14,7 +14,12 @@
   display: block;
   width: 200px;
 }
-.fyn-deco .opacified{
+.fyn-deco {
+  position: absolute;
+  right: 0;
+  top: -200px;
+}
+.fyn-deco .opacified {
   opacity: 0.26;
 }
 .fyn-deco .map-needle {
@@ -26,9 +31,6 @@
     margin-left: 100px;
   }
   .fyn-deco {
-    position: absolute;
-    right: 0;
-    top: -200px;
     width: 50%;
   }
 }
