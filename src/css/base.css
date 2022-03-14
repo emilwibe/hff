@@ -1,3 +1,9 @@
 :root {
   --color-yellow-dark: #DFAE39;
 }
+* {
+  box-sizing: border-box;
+}
+html, body {
+  margin: 0;
+}
