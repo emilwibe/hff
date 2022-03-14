@@ -7,7 +7,7 @@
   padding-bottom: 60px;
   padding-top: 60px;
 }
-.fotter.primary > div {
+.footer.primary > div {
   display: flex;
   justify-content: space-between;
   position: relative;
