@@ -23,7 +23,7 @@
   top: 0;
 }
 .fyn-wrapper {
-  transform: scale(10) translate(-60px, -130px);
+  /*transform: scale(10) translate(-60px, -130px);*/
 }
 .fyn-deco .opacified {
   opacity: 0.26;
