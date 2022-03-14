@@ -2,11 +2,12 @@
     <div class="l-wrapper xl">
     
     <?php
-    if ( get_field('logo_in_footer') ) {
-        var_dump(get_field('logo_in_footer'));
+    $logo_in_footer = get_field('logo_in_footer');
+
+    if ( $logo_in_footer && $logo_in_footer[0] == 'true') {
+        get_template_part('template-parts/logo-bottom');
     }
     ?>
-    <?php get_template_part('template-parts/logo-bottom'); ?>
 
     <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar("Sidefod") ) : ?>
     <?php endif;?>
