@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html <?php language_attribute(); ?>>
+<html <?php language_attributes(); ?>>
 <head>
     <meta charset="<?php echo bloginfo('charset'); ?>">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,4 +9,4 @@
 </head>
 <body <?php body_class(); ?>>
 
-<?php body_open(); ?>
+<?php wp_body_open(); ?>
