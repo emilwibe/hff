@@ -19,6 +19,7 @@
 }
 .fyn-deco .map-needle {
   opacity: 0.55;
+  transform: translate(12.2%, 10.1%);
 }
 @media screen and (min-width: 768px) {
   .logo-bottom {
