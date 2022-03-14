@@ -5,6 +5,10 @@
 
     <?php get_template_part( 'template-parts/fyn-decor' ); ?>
     </div>
+
+    <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar("Sidefod") ) : ?>
+    <?php endif;?>
+
 </footer>
 
 <?php wp_footer(); ?>
