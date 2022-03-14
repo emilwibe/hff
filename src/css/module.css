@@ -11,12 +11,16 @@
   position: relative;
 }
 .logo-bottom {
+  display: block;
   width: 200px;
 }
 .fyn-deco {
   opacity: 0.26;
 }
 @media screen and (min-width: 768px) {
+  .logo-bottom {
+    margin-left: 100px;
+  }
   .fyn-deco {
     position: absolute;
     right: 0;
