@@ -4,12 +4,12 @@
 
 .footer.primary {
   background-color: var(--color-yellow-dark);
-  padding-bottom: 60px;
-  padding-top: 60px;
 }
 .footer.primary > div {
   display: flex;
   justify-content: space-between;
+  padding-bottom: 60px;
+  padding-top: 60px;
   position: relative;
 }
 .logo-bottom {
