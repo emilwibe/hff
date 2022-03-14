@@ -1,20 +1,22 @@
-
 /**
 * FOOTER AREA
 */
 
 .footer.primary {
-    background-color: var(--color-yellow-dark);
-    padding-bottom: 60px;
-    padding-top: 60px;
+  background-color: var(--color-yellow-dark);
+  padding-bottom: 60px;
+  padding-top: 60px;
 }
 .fotter.primary > div {
-    position: relative;
+  position: relative;
+}
+.fyn-deco {
+  opacity: 0.26;
 }
 @media screen and (min-width: 768px) {
-    .fyn-deco {
-        position: absolute;
-        right: 0;
-        width: 50%;
-    }
+  .fyn-deco {
+    position: absolute;
+    right: 0;
+    width: 50%;
+  }
 }
