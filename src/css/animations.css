@@ -18,10 +18,10 @@
     0% {
         outline-color: rgba(255, 255, 255, 0.55);
     }
-    99% {
+    20% {
         outline-color: rgba(255, 255, 255, 0);
     }
     100% {
-        outline-color: rgba(255, 255, 255, 0.55);
+        outline-color: rgba(255, 255, 255, 0);
     }
 }
