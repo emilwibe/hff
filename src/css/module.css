@@ -35,7 +35,7 @@
   transform: translate(12.2%, 10.5%);
 }
 .fyn-deco .map-needle circle {
-  animation: pulse 1s 1s infinite;
+  animation: pulse 10s infinite;
   border-radius: 50%;
   outline: 1px solid transparent;
 }
