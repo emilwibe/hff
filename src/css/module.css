@@ -10,8 +10,8 @@
   align-items: center;
   display: flex;
   justify-content: space-between;
-  padding-bottom: 60px;
-  padding-top: 60px;
+  padding-bottom: 40px;
+  padding-top: 40px;
 }
 .logo-bottom {
   display: block;
