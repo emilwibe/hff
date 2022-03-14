@@ -36,6 +36,7 @@
 }
 .fyn-deco .map-needle circle {
   animation: pulse 1s 3s infinite;
+  outline: 1px solid transparent;
 }
 @media screen and (min-width: 768px) {
   .logo-bottom {
