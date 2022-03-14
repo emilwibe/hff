@@ -31,9 +31,11 @@
   opacity: 0.26;
 }
 .fyn-deco .map-needle {
-  /*animation: pulse 1s 3s infinite;*/
   opacity: 0.55;
   transform: translate(12.2%, 10.5%);
+}
+.fyn-deco .map-needle circle {
+  animation: pulse 1s 3s infinite;
 }
 @media screen and (min-width: 768px) {
   .logo-bottom {
