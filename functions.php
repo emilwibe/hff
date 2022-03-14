@@ -27,3 +27,15 @@ function hff_add_menus() {
         'nav_primary' => 'Primary'
     ));
 }
+/**
+ * REGISTER WIDGET AREAS
+ */
+if ( function_exists('register_sidebar') )
+  register_sidebar(array(
+    'name' => 'Sidefod',
+    'before_widget' => '<div class="footer-widget">',
+    'after_widget' => '</div>',
+    'before_title' => '<h3>',
+    'after_title' => '</h3>',
+  )
+);
