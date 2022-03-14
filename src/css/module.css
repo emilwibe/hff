@@ -16,11 +16,13 @@
   display: block;
   width: 200px;
 }
-.fyn-deco .fyn-wrapper {
+.fyn-deco {
   position: absolute;
   right: 0;
   top: -200px;
-  transform: scale(6);
+}
+.fyn-deco .fyn-wrapper {
+  
 }
 .fyn-deco .opacified {
   opacity: 0.26;
