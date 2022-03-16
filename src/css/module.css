@@ -1,4 +1,15 @@
 /**
+* HEADER AREA
+*/
+.header.primary > div {
+  display: flex;
+  justify-content: space-between;
+}
+/**
+* NAVIGATION
+*/
+
+/**
 * FOOTER AREA
 */
 
