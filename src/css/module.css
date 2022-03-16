@@ -23,7 +23,7 @@
 }
 @media screen and (min-width:768px) {
   .nav.primary a {
-    width: 152px;
+    width: 120px;
   }
 }
 @media screen and (min-width:1320px) {
