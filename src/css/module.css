@@ -3,6 +3,7 @@
 */
 .header.primary {
   padding-bottom: 32px;
+  padding-top: 90px;
 }
 .header.primary > div {
   align-items: flex-end;
