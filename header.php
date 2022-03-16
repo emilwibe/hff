@@ -20,3 +20,5 @@
             <?php get_template_part( 'template-parts/nav-primary' ); ?>
         </div>
     </header>
+
+    <?php get_template_part( 'template-parts/post-thumbnail'); ?>
