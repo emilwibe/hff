@@ -11,6 +11,7 @@ const paths = {
     "./src/css/animations.css",
     "./src/css/base.css",
     "./src/css/layout.css",
+    "./src/css/state.css",
     "./src/css/module.css",
     "./src/css/theme.css"
   ],
