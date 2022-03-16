@@ -24,7 +24,7 @@ add_action('init', 'hff_add_menus');
 
 function hff_add_menus() {
     register_nav_menus(array(
-        'nav_primary' => 'Primary'
+        'nav_primary' => 'Primær menu'
     ));
 }
 /**
