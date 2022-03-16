@@ -6,7 +6,7 @@ if ( ! defined( 'ABSPATH' ) ) {
  * THEME SUPPORT
  */
 add_theme_support('title-tag');
-add_theme_support('post-thumbnail');
+add_theme_support('post-thumbnails');
 
 /**
  * SCRIPTS AND STYLES
