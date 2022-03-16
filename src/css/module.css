@@ -1,6 +1,9 @@
 /**
 * HEADER AREA
 */
+.header.primary {
+  padding-bottom: 32px;
+}
 .header.primary > div {
   display: flex;
   justify-content: space-between;
