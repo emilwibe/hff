@@ -8,6 +8,18 @@
 /**
 * NAVIGATION
 */
+.nav.primary a {
+  color: #000;
+  display: block;
+  text-decoration: none;
+  width: 200px;
+}
+.nav.primary li {
+  border-left: 1px solid var(--color-yellow-dark);
+}
+.nav.primary li:last-child {
+  border-right: 1px solid var(--color-yellow-dark);
+}
 @media screen and (min-width: 768px) {
   .nav.primary > ul {
     display: flex;
