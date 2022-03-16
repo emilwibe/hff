@@ -34,7 +34,9 @@
 /**
 * POST THUMBNAIL
 */
-
+.wp-post-image {
+  display: block;
+}
 /**
 * FOOTER AREA
 */

@@ -39,3 +39,26 @@ if ( function_exists('register_sidebar') )
     'after_title' => '</h3>',
   )
 );
+
+/**
+ * FADES IMAGES IND ON LOAD TO PREVENT CURTAIN LOAD
+ */
+add_action('wp_head', 'images_fade_in_on_load');
+
+function images_fade_in_on_load(){
+  echo '
+  <script>
+        /**
+         * Fades images in on load to prevent curtain load
+         *
+         * @param   target    References the element / img tag self
+         *
+         * @return  void
+         */
+        function loadImageonLoad ( target ) {
+            target.style.animationPlayState = "running";
+            console.log(target);
+        }
+    </script>
+  ';
+}
