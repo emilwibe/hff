@@ -8,6 +8,10 @@
 /**
 * NAVIGATION
 */
+@media screen and (min-width: 768px) {
+  .nav.primary > ul {
+    display: flex;
+  }
 
 /**
 * FOOTER AREA
