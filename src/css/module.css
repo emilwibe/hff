@@ -86,6 +86,7 @@
 .footer.primary {
   background-color: var(--color-yellow-dark);
   position: relative;
+  z-index: 5;
 }
 .footer.primary > div {
   align-items: center;
