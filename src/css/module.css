@@ -71,7 +71,7 @@
     border-right: 1px solid var(--color-yellow-dark);
   }
   .nav.primary a {
-    border-right: medium none color;
+    border-right: none;
     font-size: 16px;
     padding-right: 0;
     text-align: center;
