@@ -41,6 +41,18 @@
     display: flex;
   }
 }
+.nav-toggle {
+  background-color: transparent;
+  border: none;
+}
+.nav-toggle:focus {
+  outline: none;
+}
+@media screen and (min-width: 1140px) {
+  .nav-toggle {
+    display: none;
+  }
+}
 /**
 * POST THUMBNAIL
 */
