@@ -37,6 +37,9 @@
   transform: translateX(0);
   transition: transform 0.4s;
 }
+.nav-is-open {
+  overflow: hidden;
+}
 @media screen and (min-width: 1140px) {
   .nav.primary {
     display: block;
