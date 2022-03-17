@@ -62,15 +62,15 @@
   }
 }
 @media screen and (min-width:1320px) {
+  .nav.primary li {
+    border-left: 1px solid var(--color-yellow-dark);
+  }
+  .nav.primary li:last-child {
+    border-right: 1px solid var(--color-yellow-dark);
+  }
   .nav.primary a {
     width: 150px;
   }
-}
-.nav.primary li {
-  border-left: 1px solid var(--color-yellow-dark);
-}
-.nav.primary li:last-child {
-  border-right: 1px solid var(--color-yellow-dark);
 }
 .nav-toggle {
   background-color: transparent;
