@@ -151,7 +151,12 @@
   top: 0;
 }
 .fyn-wrapper {
-  transform: scale(10) translate(-20px, -130px);
+  transform: scale(6) translate(-100px, -130px);
+}
+@media screen and (min-width: 700px) {
+  .fyn-wrapper {
+    transform: scale(10) translate(-20px, -130px);
+  }
 }
 .fyn-deco .opacified {
   opacity: 0.26;
