@@ -18,6 +18,18 @@
 
 </footer>
 
+<script>
+
+        {
+            let navToggle = document.getElementById("nav-toggle");
+            
+            navToggle.addEventListener("click", function(){
+                document.body.classList.toggle("nav-is-open");
+            }, false);
+        }
+
+</script>
+
 <?php wp_footer(); ?>
 </body>
 
