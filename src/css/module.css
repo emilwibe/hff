@@ -16,7 +16,8 @@
 .nav.primary {
   background-color: #fff;
   height: 100%;
-  pading: 20px;
+  max-width: 100%;
+  padding: 20px;
   position: fixed;
   right: 0;
   top: 0;
