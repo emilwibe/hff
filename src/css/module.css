@@ -28,6 +28,7 @@
 }
 .nav-is-open .nav.primary {
   transform: translateX(0);
+  transition: transform 0.4s;
 }
 @media screen and (min-width: 1140px) {
   .nav.primary {
