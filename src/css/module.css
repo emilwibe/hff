@@ -66,6 +66,7 @@
   }
   .nav.primary li {
     border-left: 1px solid var(--color-yellow-dark);
+    border-right: none;
   }
   .nav.primary li:last-child {
     border-right: 1px solid var(--color-yellow-dark);
