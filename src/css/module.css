@@ -3,12 +3,17 @@
 */
 .header.primary {
   padding-bottom: 32px;
-  padding-top: 90px;
+  padding-top: 32px;
 }
 .header.primary > div {
   align-items: flex-end;
   display: flex;
   justify-content: space-between;
+}
+@media screen and (min-width:1140px) {
+  .header.primary {
+    padding-top: 90px;
+  }
 }
 /**
 * NAVIGATION
