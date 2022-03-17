@@ -15,7 +15,7 @@
 
     <header class="header primary">
         <div class="l-wrapper xl">
-            <a href="<?php echo get_site_url(); ?>">
+            <a href="<?php echo get_site_url(); ?>" class="logo-link">
                 <?php get_template_part('template-parts/logo-header'); ?>
             </a>
 
