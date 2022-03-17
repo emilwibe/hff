@@ -23,6 +23,14 @@
   top: 0;
   z-index: 10;
 }
+@media screen and (min-width: 1140px) {
+  .nav.primary {
+    height: auto;
+    max-width: none;
+    position: static;
+  }
+}
+
 .nav.primary a {
   color: #000;
   display: block;
