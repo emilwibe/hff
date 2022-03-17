@@ -13,6 +13,14 @@
 /**
 * NAVIGATION
 */
+.nav.primary {
+  background-color: #fff;
+  height: 100%;
+  pading: 20px;
+  position: fixed;
+  right: 0;
+  top: 0;
+}
 .nav.primary a {
   color: #000;
   display: block;
