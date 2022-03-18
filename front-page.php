@@ -6,7 +6,7 @@
         <div class="l-wrapper l">
             <?php while (have_posts()) : the_post(); ?>
 
-                <div class="grid lg-30-70">
+                <div class="grid index-introduction">
 
                     <?php get_template_part('template-parts/logo-index'); ?>
 
