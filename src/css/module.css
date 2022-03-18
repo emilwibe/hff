@@ -152,7 +152,7 @@ main h2.section-heading {
 }
 .hdd-mod.hdd-mod-img-wysiwyg .wysiwyg {
   grid-column: 9 / 17;
-  grid-row: 2 / 3;
+  grid-row: 2;
 }
 /**
 * FOOTER AREA
