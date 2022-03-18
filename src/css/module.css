@@ -131,6 +131,9 @@
   font-size: 18px;
   font-weight: 400;
 }
+main h2 {
+  font-weight: 400;
+}
 /**
 * FOOTER AREA
 */
