@@ -119,6 +119,12 @@
   width: 100%;
 }
 /**
+* MAIN AREA
+*/
+.the_content > *:first-child {
+  margin-top: 40px;
+}
+/**
 * FOOTER AREA
 */
 
