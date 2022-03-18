@@ -8,10 +8,7 @@
 
                 <div class="grid lg-25-75">
 
-                    <div>
-                        <?php get_template_part('template-parts/logo-index'); ?>
-                    </div>
-
+                    <?php get_template_part('template-parts/logo-index'); ?>
 
                     <div>
                         <?php the_content(); ?>
