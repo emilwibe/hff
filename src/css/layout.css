@@ -5,6 +5,9 @@
 .l-wrapper.xl {
     max-width: 1240px;
 }
+.l-wrapper.l {
+    max-width: 960px;
+}
 .row {
     display: flex;
 }
