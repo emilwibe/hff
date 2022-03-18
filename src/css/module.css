@@ -142,6 +142,7 @@ main h2.section-heading {
   display: inline-block;
   font-weight: 400;
   margin-left: -100px;
+  margin-bottom: 0;
   padding-left: 10px;
   text-transform: uppercase;
   width: 200px;
