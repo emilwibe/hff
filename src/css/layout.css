@@ -15,6 +15,9 @@
     display: grid;
     gap: 20px;
 }
+.grid-16 {
+    grid-template-columns: repeat(1fr, 16);
+}
 @media screen and (min-width: 768px) {
     .index-introduction {
         grid-template-columns: 220px auto;

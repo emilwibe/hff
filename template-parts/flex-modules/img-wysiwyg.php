@@ -4,4 +4,8 @@
     <h2 class="section-heading"><?php the_sub_field('hff_section_heading'); ?></h2>
 <?php endif; ?>
 
+<div class="grid grid-16">
+    
+</div>
+
 </div>
