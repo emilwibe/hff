@@ -131,6 +131,7 @@
   font-size: 18px;
   font-weight: 400;
 }
+/* FLEX */
 main h2.section-heading {
   box-shadow: var(--card-shadow);
   display: inline-block;
@@ -139,6 +140,9 @@ main h2.section-heading {
   padding-left: 10px;
   text-transform: uppercase;
   width: 200px;
+}
+.hdd-mod.hdd-mod-img-wysiwyg img {
+  grid-column: 1 / 12;
 }
 /**
 * FOOTER AREA
