@@ -153,6 +153,11 @@ main h2.section-heading {
 .hdd-mod.hdd-mod-img-wysiwyg .wysiwyg {
   grid-column: 9 / 17;
   grid-row: 1;
+  margin-top: 10px;
+  z-index: 5;
+}
+.hdd-mod.hdd-mod-img-wysiwyg .wysiwyg *:first-child {
+  margin-top: 0;
 }
 /**
 * FOOTER AREA
