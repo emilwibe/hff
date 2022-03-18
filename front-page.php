@@ -1,29 +1,29 @@
 <?php get_header(); ?>
 
-    <?php if(have_posts()) : ?>
+<?php if (have_posts()) : ?>
 
-        <main>
-            <div class="l-wrapper l">
-        <?php while(have_posts()) : the_post(); ?>
+    <main>
+        <div class="l-wrapper l">
+            <?php while (have_posts()) : the_post(); ?>
 
-            <div class="row lg-20-80">
-                <div>
+                <div class="grid lg-25-75">
+
                     <div>
                         <?php get_template_part('template-parts/logo-index'); ?>
                     </div>
-                </div>
-                <div>
+
+
                     <div>
                         <?php the_content(); ?>
                     </div>
+
                 </div>
-            </div>
 
-        <?php endwhile; ?>
+            <?php endwhile; ?>
 
-            </div>
-        </main>
+        </div>
+    </main>
 
-    <?php endif; ?>
+<?php endif; ?>
 
 <?php get_footer(); ?>
