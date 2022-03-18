@@ -135,6 +135,9 @@ main h2 {
   box-shadow: var(--card-shadow);
   display: inline-block;
   font-weight: 400;
+  padding-left: 10px;
+  text-transform: uppercase;
+  width: 200px;
 }
 /**
 * FOOTER AREA
