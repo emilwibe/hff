@@ -131,7 +131,7 @@
   font-size: 18px;
   font-weight: 400;
 }
-main h2 {
+main h2.section-heading {
   box-shadow: var(--card-shadow);
   display: inline-block;
   font-weight: 400;
