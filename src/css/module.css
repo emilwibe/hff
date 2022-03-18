@@ -178,8 +178,11 @@
   outline: 1px solid transparent;
 }
 @media screen and (min-width: 768px) {
-  .logo-bottom, .logo-index {
+  .logo-bottom {
     margin-left: var(--margin-left);
+  }
+  .logo-index {
+    padding-left: 90px;
   }
 }
 .footer-widget {
