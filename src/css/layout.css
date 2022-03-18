@@ -5,3 +5,14 @@
 .l-wrapper.xl {
     max-width: 1240px;
 }
+.row {
+    display: flex;
+}
+@media screen and (min-width: 768px){
+    .col-20-80:first-child {
+        width: 20%;
+    }
+    .col-20-80:last-child {
+        width: 80%;
+    }
+}
