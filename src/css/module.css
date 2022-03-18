@@ -133,6 +133,7 @@
 }
 main h2 {
   box-shadow: var(--card-shadow);
+  display: inline-block;
   font-weight: 400;
 }
 /**
