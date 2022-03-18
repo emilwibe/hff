@@ -151,6 +151,7 @@ main h2.section-heading {
   grid-row: 1;
 }
 .hdd-mod.hdd-mod-img-wysiwyg .wysiwyg {
+  align-self: flex-start;
   grid-column: 9 / 17;
   grid-row: 1;
   margin-top: 20px;
