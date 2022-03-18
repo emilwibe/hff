@@ -1,5 +1,5 @@
 <footer class="footer primary">
-    <div class="l-wrapper xl">
+    <div class="l-wrapper l">
     
     <?php
     $logo_in_footer = get_field('logo_in_footer');
