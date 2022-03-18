@@ -10,7 +10,7 @@
         if (get_sub_field('hff_image')) {
             $imageID = get_sub_field('hff_image');
 
-            wp_insert_attachment($imageID);
+            echo wp_get_attachment_image($imageID, 'full');
         }
     ?>
 
