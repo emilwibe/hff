@@ -132,6 +132,7 @@
   font-weight: 400;
 }
 main h2 {
+  box-shadow: var(--card-shadow);
   font-weight: 400;
 }
 /**

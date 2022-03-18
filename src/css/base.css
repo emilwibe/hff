@@ -1,6 +1,7 @@
 :root {
   --color-yellow-dark: #F0B026;
   --margin-left: 100px;
+  --card-shadow: 3px 3px 5px #999;
 }
 * {
   box-sizing: border-box;
