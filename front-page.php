@@ -3,7 +3,7 @@
 <?php if (have_posts()) : ?>
 
     <main>
-        <div class="l-wrapper xl">
+        <div class="l-wrapper l">
             <?php while (have_posts()) : the_post(); ?>
 
                 <div class="grid lg-25-75">

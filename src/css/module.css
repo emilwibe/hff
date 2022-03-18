@@ -181,9 +181,6 @@
   .logo-bottom {
     margin-left: var(--margin-left);
   }
-  .logo-index {
-    padding-left: 90px;
-  }
 }
 .footer-widget {
   align-self: flex-start;
