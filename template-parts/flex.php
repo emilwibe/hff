@@ -4,7 +4,7 @@
 
         <?php
             if(get_row_layout == 'hff_img_wysiwyg') {
-                get_template_part( 'template-parts/flex-modules/index-img-wysiwyg' );
+                get_template_part( 'template-parts/flex-modules/img-wysiwyg' );
             }
         ?>
 
