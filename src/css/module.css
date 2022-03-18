@@ -122,10 +122,9 @@
 * MAIN AREA
 */
 .the_content > *:first-child {
-  margin-top: 40px;
+  margin-top: 0;
 }
 .logo-index {
-  margin-top: 28px;
   width: 220px;
 }
 /**
