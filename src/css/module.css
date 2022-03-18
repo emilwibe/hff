@@ -148,11 +148,11 @@ main h2.section-heading {
 }
 .hdd-mod.hdd-mod-img-wysiwyg img {
   grid-column: 1 / 12;
-  grid-row: 1 / 3;
+  grid-row: 1;
 }
 .hdd-mod.hdd-mod-img-wysiwyg .wysiwyg {
   grid-column: 9 / 17;
-  grid-row: 2;
+  grid-row: 1;
 }
 /**
 * FOOTER AREA
