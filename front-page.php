@@ -16,6 +16,8 @@
 
                 </div>
 
+                <?php get_template_part( 'template-parts/flex' ); ?>
+
             <?php endwhile; ?>
 
         </div>
