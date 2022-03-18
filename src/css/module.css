@@ -132,6 +132,11 @@
   font-weight: 400;
 }
 /* FLEX */
+.card-layout {
+  background-color: #fff;
+  box-shadow: var(--card-shadow);
+  padding: 10px;
+}
 main h2.section-heading {
   box-shadow: var(--card-shadow);
   display: inline-block;
@@ -143,6 +148,11 @@ main h2.section-heading {
 }
 .hdd-mod.hdd-mod-img-wysiwyg img {
   grid-column: 1 / 12;
+  grid-row: 1 / 3;
+}
+.hdd-mod.hdd-mod-img-wysiwyg .wysiwyg {
+  grid-column: 9 / 17;
+  grid-row: 2 / 3;
 }
 /**
 * FOOTER AREA

@@ -4,7 +4,7 @@
         <h2 class="section-heading"><?php the_sub_field('hff_section_heading'); ?></h2>
     <?php endif; ?>
 
-    <div class="grid grid-16">
+    <div class="grid grid-16 card-section">
 
         <?php
         if (get_sub_field('hff_image')) {
@@ -16,7 +16,7 @@
 
         <?php if (get_sub_field('hff_wysiwyg')) : ?>
 
-            <div class="wysiwyg">
+            <div class="wysiwyg card-layout">
 
             <?php the_sub_field('hff_wysiwyg'); ?>
             </div>
