@@ -11,23 +11,3 @@
     <?php endwhile; ?>
 
 <?php endif; ?>
-
-    
-        if( get_row_layout() == 'paragraph' ):
-            $text = get_sub_field('text');
-            // Do something...
-
-        // Case: Download layout.
-        elseif( get_row_layout() == 'download' ): 
-            $file = get_sub_field('file');
-            // Do something...
-
-        endif;
-
-    // End loop.
-    endwhile;
-
-// No value.
-else :
-    // Do something...
-endif;
