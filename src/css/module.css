@@ -124,6 +124,9 @@
 .the_content > *:first-child {
   margin-top: 40px;
 }
+.logo-index {
+  padding: 40px;
+}
 /**
 * FOOTER AREA
 */
