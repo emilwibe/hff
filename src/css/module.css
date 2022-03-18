@@ -178,8 +178,8 @@
   outline: 1px solid transparent;
 }
 @media screen and (min-width: 768px) {
-  .logo-bottom {
-    margin-left: 100px;
+  .logo-bottom, .logo-index {
+    margin-left: var(--margin-left);
   }
 }
 .footer-widget {
