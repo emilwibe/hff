@@ -10,7 +10,7 @@
 
                     <?php get_template_part('template-parts/logo-index'); ?>
 
-                    <div class="the_content">
+                    <div class="the_content wysiwyg">
                         <?php the_content(); ?>
                     </div>
 

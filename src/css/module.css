@@ -127,6 +127,10 @@
 .logo-index {
   width: 220px;
 }
+.wysiwyg strong {
+  font-size: 18px;
+  font-weight: 400;
+}
 /**
 * FOOTER AREA
 */
