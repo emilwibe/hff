@@ -1,5 +1,6 @@
 <?php if(have_rows('hff_flex_sidebar')) : ?>
 
+    <aside>
 <?php while(have_rows('hff_flex_sidebar')) : the_row(); ?>
 
     <?php
@@ -13,4 +14,5 @@
 
 <?php endwhile; ?>
 
+    </aside>
 <?php endif; ?>
