@@ -32,9 +32,11 @@
   .lg-30-70 {
     grid-template-columns: 30% 70%;
   }
-  .lg-68-32 {
-      grid-template-columns: 68% 32%;
-  }
+}
+@media screen and (min-width: 600px) {
+    .lg-68-32 {
+        grid-template-columns: 68% 32%;
+    }
 }
 .page main, .post main {
     grid-column: 1 / 2;
