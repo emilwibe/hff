@@ -1,4 +1,4 @@
-<div class="l-wrapper xl hff-mod hff-mod-wysiwyg">
+<div class="hff-mod hff-mod-wysiwyg">
     <?php if (get_sub_field('hff_wysiwyg_singular')) : ?>
 
     <div class="wysiwyg">
@@ -8,3 +8,5 @@
     </div>
     
     <?php endif; ?>
+
+</div>
