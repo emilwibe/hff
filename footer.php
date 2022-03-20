@@ -9,7 +9,7 @@
     }
     ?>
 
-    <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar("Sidefod") ) : ?>
+    <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar("hff_footer_info") ) : ?>
     <?php endif;?>
 
     </div>
