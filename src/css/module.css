@@ -183,6 +183,9 @@ main h2.section-heading {
 .hff-mod .wysiwyg *:first-child {
   margin-top: 0;
 }
+.hff-mod .wysiwyg *:last-child {
+  margin-bottom: 0;
+}
 
 .hff-mod.hff-mod-wysiwyg-img .wysiwyg {
   grid-column: 2 / 10;
