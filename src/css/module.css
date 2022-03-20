@@ -135,7 +135,7 @@
 .card-layout {
   background-color: #fff;
   box-shadow: var(--card-shadow);
-  padding: 10px;
+  padding: 20px;
 }
 main h2.section-heading {
   box-shadow: var(--card-shadow);
@@ -161,7 +161,7 @@ main h2.section-heading {
   grid-column: 3 / 12;
 }
 .hff-mod.hff-mod-img-wysiwyg .wysiwyg {
-  grid-column: 9 / 17;
+  grid-column: 9 / 15;
 }
 .hff-mod .wysiwyg *:first-child {
   margin-top: 0;
