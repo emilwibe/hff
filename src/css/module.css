@@ -131,7 +131,7 @@
   font-size: 18px;
   font-weight: 400;
 }
-.wysiwyg {
+.wysiwyg ul {
   list-style-type: none;
 }
 .wysiwyg li:before {
