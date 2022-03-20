@@ -172,6 +172,12 @@ main h2.section-heading {
   margin-top: 20px;
   z-index: 5;
 }
+.hff-mod-cta a {
+  background-color: var(--color-yellow-dark);
+  display: block;
+  font-weight: 300;
+  text-align: center;
+}
 .hff-mod .primary-img {
   grid-row: 1;
 }
