@@ -150,6 +150,9 @@
   height: auto !important;
   width: 100% !important;
 }
+.hff-mod-img figcaption {
+  font-size: 12px;
+}
 .card-layout {
   background-color: #fff;
   box-shadow: var(--card-shadow);
