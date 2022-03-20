@@ -2,7 +2,7 @@
 
 <?php
     if(is_singular()) {
-        get_template_part('template-parts/loop-default');
+        get_template_part('template-parts/loop-singular');
     }
 ?>
 
