@@ -25,20 +25,7 @@
 .gap-20 {
   gap: 20px;
 }
-@media screen and (min-width: 768px) {
-  .index-introduction {
-    grid-template-columns: 220px auto;
-  }
-  .lg-30-70 {
-    grid-template-columns: 30% 70%;
-  }
-  .page main, .post main {
-      padding-right: 40px;
-  }
-  .page aside, .post aside {
-      padding-left: 40px;
-  }
-}
+
 @media screen and (min-width: 680px) {
     .lg-68-32 {
         grid-template-columns: 68% 32%;
@@ -56,6 +43,20 @@
         padding-left: 20px;
     }
 }
+@media screen and (min-width: 768px) {
+    .index-introduction {
+      grid-template-columns: 220px auto;
+    }
+    .lg-30-70 {
+      grid-template-columns: 30% 70%;
+    }
+    .page main, .post main {
+        padding-right: 40px;
+    }
+    .page aside, .post aside {
+        padding-left: 40px;
+    }
+  }
 .page aside, .post aside {
     margin-bottom: 20px;
 }
