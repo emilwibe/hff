@@ -232,11 +232,11 @@ main h2.section-heading {
   }
 
   .hff-mod.hff-mod-wysiwyg-img .wysiwyg {
-    grid-column: 1 / 16;
+    grid-column: 3 / 17;
     grid-row: 2;
   }
   .hff-mod.hff-mod-wysiwyg-img .primary-img {
-    grid-column: 3 / 17;
+    grid-column: 2 / 16;
   }
 }
 /**
