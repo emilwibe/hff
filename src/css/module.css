@@ -146,6 +146,10 @@
   margin-top: 10px;
 }
 /* FLEX */
+.hff-mod-img img {
+  height: auto !important;
+  width: 100% !important;
+}
 .card-layout {
   background-color: #fff;
   box-shadow: var(--card-shadow);
