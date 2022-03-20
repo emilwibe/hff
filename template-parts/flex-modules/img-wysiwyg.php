@@ -10,7 +10,7 @@
         if (get_sub_field('hff_image')) {
             $imageID = get_sub_field('hff_image');
 
-            echo wp_get_attachment_image($imageID, 'full', false, ['class' => 'fade-in-on-load', 'onload' => 'loadImageonLoad (this)']);
+            echo wp_get_attachment_image($imageID, 'full', false, ['class' => 'primary-img fade-in-on-load', 'onload' => 'loadImageonLoad (this)']);
         }
         ?>
 

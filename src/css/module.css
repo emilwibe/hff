@@ -153,7 +153,7 @@ main h2.section-heading {
   margin-top: 20px;
   z-index: 5;
 }
-.hff-mod.hff-mod-img-wysiwyg img {
+.hff-mod.hff-mod-img-wysiwyg .primary-img {
   grid-column: 1 / 12;
   grid-row: 1;
 }
