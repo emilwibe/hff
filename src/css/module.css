@@ -131,10 +131,6 @@
   color: var(--color-yellow-dark);
   text-decoration: none;
 }
-.wysiwyg strong {
-  font-size: 18px;
-  font-weight: 400;
-}
 .wysiwyg ul {
   list-style-type: none;
 }
