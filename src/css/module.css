@@ -136,7 +136,7 @@
 }
 .wysiwyg li{
   background-image: url('../assets/circle-yellow.svg');
-  background-repeat: no;
+  background-repeat: no-repeat;
   padding-left: 10px;
 }
 /* FLEX */
