@@ -19,6 +19,8 @@
         <?php
             if(get_row_layout() == 'hff_flex_wysiwyg') {
                 get_template_part('template-parts/flex-modules/wysiwyg');
+            } elseif (get_row_layout() == 'hff_flex_img') {
+                get_template_part('template-parts/flex-modules/img');
             }
 
         ?>
