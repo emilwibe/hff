@@ -32,4 +32,7 @@
   .lg-30-70 {
     grid-template-columns: 30% 70%;
   }
+  .lg-32-68 {
+      grid-template-columns: 32% 70%;
+  }
 }
