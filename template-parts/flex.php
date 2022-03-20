@@ -14,7 +14,7 @@
 
 <?php elseif(have_rows('hff_flex_content_singular')) : ?>
 
-    <?php while(have_rows('hff_flex_content_singular')) : ?>
+    <?php while(have_rows('hff_flex_content_singular')) : the_row(); ?>
 
         <?php
             if(get_row_layout() == 'hff_flex_wysiwyg') {
