@@ -41,7 +41,9 @@
     padding-right: 10px;
 }
 .page aside, .post aside {
-    border-left: 1px solid var(--card-shadow);
+    border-left: 1px solid var(--color-yellow-dark);
     grid-column: 2 / 3;
+    padding-bottom: 40px;
     padding-left: 10px;
+    padding-top: 40px;
 }
