@@ -167,10 +167,10 @@ main h2.section-heading {
 }
 
 .hff-mod.hff-mod-wysiwyg-img .wysiwyg {
-  grid-column: 1 / 12;
+  grid-column: 1 / 11;
 }
 .hff-mod.hff-mod-wysiwyg-img .primary-img {
-  grid-column: 9 / 17;
+  grid-column: 8 / 17;
 }
 /**
 * FOOTER AREA
