@@ -36,3 +36,9 @@
       grid-template-columns: 32% 70%;
   }
 }
+.page main, .post main {
+    grid-column: 1 / 2;
+}
+.page aside, .post aside {
+    grid-column: 2 / 3;
+}
