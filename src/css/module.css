@@ -141,6 +141,9 @@
   background-size: 10px;
   padding-left: 24px;
 }
+.wysiwyg li + li {
+  margin-top: 10px;
+}
 /* FLEX */
 .card-layout {
   background-color: #fff;
