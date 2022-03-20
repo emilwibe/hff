@@ -136,8 +136,10 @@
 }
 .wysiwyg li{
   background-image: url('../assets/circle-yellow.svg');
+  background-position: 0 6px;
   background-repeat: no-repeat;
-  padding-left: 10px;
+  background-size: 10px;
+  padding-left: 24px;
 }
 /* FLEX */
 .card-layout {
