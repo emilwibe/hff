@@ -1,6 +1,6 @@
 <?php if (have_posts()) : ?>
 
-    < class="l-wrapper l grid lg-68-32">
+    <div class="l-wrapper l grid lg-68-32">
     <?php while(have_posts()) : the_post(); ?>
 
     <main>
