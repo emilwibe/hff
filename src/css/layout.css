@@ -32,6 +32,12 @@
   .lg-30-70 {
     grid-template-columns: 30% 70%;
   }
+  .page main, .post main {
+      padding-right: 40px;
+  }
+  .page aside, .post aside {
+      padding-left: 40px;
+  }
 }
 @media screen and (min-width: 680px) {
     .lg-68-32 {
@@ -39,7 +45,7 @@
     }
     .page main, .post main {
         grid-column: 1 / 2;
-        padding-right: 40px;
+        padding-right: 20px;
     }
     .page aside, .post aside {
         align-self: flex-start;
@@ -47,7 +53,7 @@
         grid-column: 2 / 3;
         margin-bottom: 40px;
         margin-top: 40px;
-        padding-left: 40px;
+        padding-left: 20px;
     }
 }
 .page aside, .post aside {
