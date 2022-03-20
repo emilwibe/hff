@@ -1,7 +1,7 @@
-<?php if (have_rows()) : ?>
+<?php if (have_posts()) : ?>
 
     <div class="l-wrapper grid lg-32-68">
-    <?php while(have_rows()) : the_post(); ?>
+    <?php while(have_posts()) : the_post(); ?>
 
     <main>
         <div class="wysiwyg">
