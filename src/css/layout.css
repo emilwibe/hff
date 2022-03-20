@@ -32,8 +32,8 @@
   .lg-30-70 {
     grid-template-columns: 30% 70%;
   }
-  .lg-32-68 {
-      grid-template-columns: 32% 70%;
+  .lg-68-32 {
+      grid-template-columns: 68% 32%;
   }
 }
 .page main, .post main {
