@@ -7,6 +7,8 @@
         <div class="wysiwyg">
             <?php the_content(); ?>
         </div>
+
+        <?php get_template_part('template-parts/flex'); ?>
     </main>
 
     <aside>
