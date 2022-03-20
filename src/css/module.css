@@ -127,6 +127,10 @@
 .logo-index {
   width: 220px;
 }
+.wysiwyg a {
+  color: var(--color-yellow-dark);
+  text-decoration: none;
+}
 .wysiwyg strong {
   font-size: 18px;
   font-weight: 400;
@@ -197,7 +201,7 @@ main h2.section-heading {
     grid-column: 2 / 12;
   }
   .hff-mod.hff-mod-img-wysiwyg .wysiwyg {
-    grid-column: 9 / 16;
+    grid-column: 9 / 17;
   }
   .hff-mod .wysiwyg *:first-child {
     margin-top: 0;
