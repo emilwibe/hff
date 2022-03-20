@@ -174,7 +174,7 @@ main h2.section-heading {
   grid-column: 3 / 12;
 }
 .hff-mod.hff-mod-img-wysiwyg .wysiwyg {
-  grid-column: 9 / 15;
+  grid-column: 9 / 17;
 }
 .hff-mod .wysiwyg *:first-child {
   margin-top: 0;
