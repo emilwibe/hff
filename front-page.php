@@ -3,8 +3,10 @@
 <?php if (have_posts()) : ?>
 
     <main>
-        <div class="l-wrapper xl">
+        
             <?php while (have_posts()) : the_post(); ?>
+
+            <div class="l-wrapper l">
 
                 <div class="grid index-introduction">
 
@@ -15,12 +17,13 @@
                     </div>
 
                 </div>
+                
+            </div><!--/.l-wrapper-->
 
                 <?php get_template_part( 'template-parts/flex' ); ?>
 
             <?php endwhile; ?>
 
-        </div>
     </main>
 
 <?php endif; ?>

@@ -1,4 +1,4 @@
-<div class="hff-mod hff-mod-wysiwyg-img">
+<div class="l-wrapper xl hff-mod hff-mod-wysiwyg-img">
     <?php if (get_sub_field('hff_section_heading')) : ?>
 
         <h2 class="section-heading"><?php the_sub_field('hff_section_heading'); ?></h2>
