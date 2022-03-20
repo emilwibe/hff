@@ -33,25 +33,26 @@
     grid-template-columns: 30% 70%;
   }
 }
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 680px) {
     .lg-68-32 {
         grid-template-columns: 68% 32%;
     }
+    .page main, .post main {
+        grid-column: 1 / 2;
+        padding-right: 40px;
+    }
+    .page aside, .post aside {
+        align-self: flex-start;
+        border-left: 1px solid var(--color-yellow-dark);
+        grid-column: 2 / 3;
+        margin-bottom: 40px;
+        margin-top: 40px;
+        padding-left: 40px;
+    }
 }
-.page main, .post main {
-    grid-column: 1 / 2;
-    padding-right: 40px;
-}
+
 .page main > .wysiwyg > *:first-child, .post main > .wysiwyg > *:first-child {
     margin-top: 0;
-}
-.page aside, .post aside {
-    align-self: flex-start;
-    border-left: 1px solid var(--color-yellow-dark);
-    grid-column: 2 / 3;
-    margin-bottom: 40px;
-    margin-top: 40px;
-    padding-left: 40px;
 }
 aside > * + * {
     margin-top: 40px;
