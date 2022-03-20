@@ -147,19 +147,25 @@ main h2.section-heading {
   text-transform: uppercase;
   width: 200px;
 }
-.hdd-mod.hdd-mod-img-wysiwyg img {
-  grid-column: 1 / 12;
-  grid-row: 1;
-}
-.hdd-mod.hdd-mod-img-wysiwyg .wysiwyg {
+.hff-mod .wysiwyg {
   align-self: flex-start;
-  grid-column: 9 / 17;
   grid-row: 1;
   margin-top: 20px;
   z-index: 5;
 }
-.hdd-mod.hdd-mod-img-wysiwyg .wysiwyg *:first-child {
+.hff-mod.hff-mod-img-wysiwyg img {
+  grid-column: 1 / 12;
+  grid-row: 1;
+}
+.hff-mod.hff-mod-img-wysiwyg .wysiwyg {
+  grid-column: 9 / 17;
+}
+.hff-mod .wysiwyg *:first-child {
   margin-top: 0;
+}
+
+.hff-mod.hff-mod-wysiwyg-img .wysiwyg {
+  grid-column: 1 / 12;
 }
 /**
 * FOOTER AREA
