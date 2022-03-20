@@ -158,7 +158,7 @@ main h2.section-heading {
   grid-row: 1;
 }
 .hff-mod.hff-mod-img-wysiwyg .primary-img {
-  grid-column: 1 / 12;
+  grid-column: 3 / 12;
 }
 .hff-mod.hff-mod-img-wysiwyg .wysiwyg {
   grid-column: 9 / 17;
@@ -168,7 +168,7 @@ main h2.section-heading {
 }
 
 .hff-mod.hff-mod-wysiwyg-img .wysiwyg {
-  grid-column: 1 / 10;
+  grid-column: 2 / 9;
 }
 .hff-mod.hff-mod-wysiwyg-img .primary-img {
   grid-column: 7 / 17;
