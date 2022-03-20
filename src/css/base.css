@@ -3,6 +3,10 @@
   --margin-left: 100px;
   --card-shadow: 3px 3px 5px #999;
 }
+::selection {
+  background-color: var(--color-yellow-dark);
+  color: #000;
+}
 * {
   box-sizing: border-box;
 }
