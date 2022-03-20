@@ -40,7 +40,7 @@
     grid-column: 1 / 2;
     padding-right: 40px;
 }
-.page main > *:first-child, .post main > *:first-child {
+.page main > .wysiwyg > *:first-child, .post main > .wysiwyg > *:first-child {
     margin-top: 0;
 }
 .page aside, .post aside {
