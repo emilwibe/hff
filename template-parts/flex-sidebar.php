@@ -8,6 +8,8 @@
             get_template_part('template-parts/flex-modules/wysiwyg');
         } elseif (get_row_layout() == 'hff_sidebar_flex_img') {
             get_template_part('template-parts/flex-modules/img');
+        } elseif (get_row_layout() == 'hff_sidebar_flex_cta') {
+            get_template_part('template-parts/flex-modules/cta');
         }
 
     ?>
