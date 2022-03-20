@@ -140,6 +140,7 @@
 main h2.section-heading {
   box-shadow: var(--card-shadow);
   display: inline-block;
+  font-size: 18px;
   font-weight: 400;
   margin-left: -100px;
   margin-bottom: 0;
