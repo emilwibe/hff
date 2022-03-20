@@ -4,8 +4,6 @@
     <?php while(have_rows()) : the_post(); ?>
 
     <main>
-        <h1><?php the_title(); ?></h1>
-
         <div class="wysiwyg">
             <?php the_content(); ?>
         </div>
