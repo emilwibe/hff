@@ -174,9 +174,11 @@ main h2.section-heading {
 }
 .hff-mod-cta a {
   background-color: var(--color-yellow-dark);
+  color: #000;
   display: block;
   font-weight: 300;
   text-align: center;
+  text-decoration: none;
 }
 .hff-mod .primary-img {
   grid-row: 1;
