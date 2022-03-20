@@ -222,6 +222,7 @@ main h2.section-heading {
   }
   .hff-mod.hff-mod-img-wysiwyg .wysiwyg {
     grid-column: 3 / 17;
+    grid-row: 2;
   }
   .hff-mod .wysiwyg *:first-child {
     margin-top: 0;
@@ -229,6 +230,7 @@ main h2.section-heading {
 
   .hff-mod.hff-mod-wysiwyg-img .wysiwyg {
     grid-column: 1 / 16;
+    grid-row: 2;
   }
   .hff-mod.hff-mod-wysiwyg-img .primary-img {
     grid-column: 3 / 17;
