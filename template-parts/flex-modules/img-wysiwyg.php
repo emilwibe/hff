@@ -1,7 +1,9 @@
 <div class="l-wrapper xl hff-mod hff-mod-img-wysiwyg">
     <?php if (get_sub_field('hff_section_heading')) : ?>
 
+    <div class="grid-16">
         <h2 class="section-heading"><?php the_sub_field('hff_section_heading'); ?></h2>
+    </div>
     <?php endif; ?>
 
     <div class="grid grid-16 card-section">
