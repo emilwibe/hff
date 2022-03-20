@@ -12,4 +12,17 @@
 
     <?php endwhile; ?>
 
+<?php elseif(have_rows('hff_flex_content_singular')) : ?>
+
+    <?php while(have_rows('hff_flex_content_singular')) : ?>
+
+        <?php
+            if(get_row_layout() == 'hff_flex_wysiwyg') {
+                get_template_part('template-parts/flex-modules/wysiwyg');
+            }
+
+        ?>
+
+    <?php endwhile; ?>
+
 <?php endif; ?>
