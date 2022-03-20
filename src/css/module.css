@@ -133,8 +133,9 @@
 }
 .wysiwyg ul {
   list-style-type: none;
+  padding-left: 0;
 }
-.wysiwyg li {
+.wysiwyg ul li {
   background-image: url("../assets/circle-yellow.svg");
   background-position: 0 6px;
   background-repeat: no-repeat;
