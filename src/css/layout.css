@@ -38,7 +38,10 @@
 }
 .page main, .post main {
     grid-column: 1 / 2;
+    padding-right: 10px;
 }
 .page aside, .post aside {
+    border-left: 1px solid var(--card-shadow);
     grid-column: 2 / 3;
+    padding-left: 10px;
 }
