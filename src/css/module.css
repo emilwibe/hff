@@ -175,10 +175,14 @@ main h2.section-heading {
 .hff-mod-cta a {
   background-color: var(--color-yellow-dark);
   color: #000;
+  box-sizing: var(--card-shadow);
   display: block;
+  font-size: 32px;
   font-weight: 300;
+  padding: 10px;
   text-align: center;
   text-decoration: none;
+  text-transform: uppercase;
 }
 .hff-mod .primary-img {
   grid-row: 1;
