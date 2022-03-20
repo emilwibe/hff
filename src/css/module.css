@@ -221,14 +221,14 @@ main h2.section-heading {
     grid-column: 2 / 16;
   }
   .hff-mod.hff-mod-img-wysiwyg .wysiwyg {
-    grid-column: 9 / 16;
+    grid-column: 3 / 17;
   }
   .hff-mod .wysiwyg *:first-child {
     margin-top: 0;
   }
 
   .hff-mod.hff-mod-wysiwyg-img .wysiwyg {
-    grid-column: 1 / 9;
+    grid-column: 1 / 16;
   }
   .hff-mod.hff-mod-wysiwyg-img .primary-img {
     grid-column: 3 / 17;
