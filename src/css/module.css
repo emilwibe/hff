@@ -175,7 +175,7 @@ main h2.section-heading {
 .hff-mod-cta a {
   background-color: var(--color-yellow-dark);
   color: #000;
-  box-sizing: var(--card-shadow);
+  box-shadow: var(--card-shadow);
   display: block;
   font-size: 32px;
   font-weight: 300;
