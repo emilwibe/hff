@@ -6,7 +6,7 @@
 
         <div class="l-wrapper l">
 
-            <div class="grid index-introduction">
+            <div class="grid gap-20 index-introduction">
 
                 <?php get_template_part('template-parts/logo-index'); ?>
 
