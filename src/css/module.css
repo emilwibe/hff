@@ -273,6 +273,16 @@ main h2.section-heading {
     grid-column: 2 / 16;
   }
 }
+@media screen and (max-width: 740px) {
+  .logo-index {
+    grid-column: 6 / 12;
+    grid-row: 2;
+  }
+  .the_content.wysiwyg {
+    grid-column: 2 / 16;
+    grid-row: 1;
+  }
+}
 /**
 * FOOTER AREA
 */
