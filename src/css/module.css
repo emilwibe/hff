@@ -121,6 +121,9 @@
 /**
 * MAIN AREA
 */
+.the_content.wysiwyg {
+  
+}
 .the_content > *:first-child {
   margin-top: 0;
 }

@@ -4,9 +4,9 @@
     
         <?php while (have_posts()) : the_post(); ?>
 
-        <div class="l-wrapper l">
+        <div class="l-wrapper xl">
 
-            <div class="grid gap-20 index-introduction">
+            <div class="grid grid-16 index-introduction">
 
                 <?php get_template_part('template-parts/logo-index'); ?>
 
