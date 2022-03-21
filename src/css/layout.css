@@ -44,9 +44,7 @@
     }
 }
 @media screen and (min-width: 768px) {
-    .index-introduction {
-      grid-template-columns: 220px auto;
-    }
+    
     .lg-30-70 {
       grid-template-columns: 30% 70%;
     }
