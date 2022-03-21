@@ -122,13 +122,15 @@
 * MAIN AREA
 */
 .the_content.wysiwyg {
-  
+  grid-column: 6 / 16;
+  padding: 10px;
 }
 .the_content > *:first-child {
   margin-top: 0;
 }
 .logo-index {
-  width: 220px;
+  grid-column: 3 / 6;
+  padding: 10px;
 }
 .wysiwyg a {
   color: var(--color-yellow-dark);
