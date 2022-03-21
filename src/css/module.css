@@ -129,7 +129,9 @@
   margin-top: 0;
 }
 .logo-index {
+  align-self: flex-start;
   grid-column: 3 / 6;
+  height: auto !important;
   padding: 10px;
 }
 .wysiwyg a {
@@ -216,6 +218,9 @@ main h2.section-heading {
   grid-column: 7 / 16;
 }
 @media screen and (max-width: 960px) {
+  .logo-index {
+    grid-column: 1 / 3;
+  }
   main h2.section-heading {
     grid-column: 1 / 3;
   }
