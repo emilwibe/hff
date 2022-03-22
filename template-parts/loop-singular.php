@@ -5,11 +5,11 @@
 
         var_dump($colored_types);
         if ($colored_types[0] == 'true') {
-            $colred_types = "colored-types";
+            $col_types = "colored-types";
         }
     ?>
 
-    <div class="l-wrapper l grid lg-68-32 <?php echo $colred_types; ?>">
+    <div class="l-wrapper l grid lg-68-32 <?php echo $col_types; ?>">
     <?php while(have_posts()) : the_post(); ?>
 
     <main>
