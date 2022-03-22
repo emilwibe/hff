@@ -4,12 +4,10 @@
         $colored_types = get_field('hff_strong_types_colored');
 
         var_dump($colored_types);
-        if ($colored_types[0] == 'true') {
-            $col_types = "colored-types";
-        }
+        
     ?>
 
-    <div class="l-wrapper l grid lg-68-32 <?php echo $col_types; ?>">
+    <div class="l-wrapper l grid lg-68-32">
     <?php while(have_posts()) : the_post(); ?>
 
     <main>
