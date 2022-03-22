@@ -2,12 +2,17 @@
 
     <?php
         $colored_types = get_field('hff_strong_types_colored');
+        $class_colored_types = "";
 
-        var_dump($colored_types);
+        if($colored_types[0] == 'true') {
+            $class_colored_types = 'colored-types';
+        }
+
+        //var_dump($colored_types);
         
     ?>
 
-    <div class="l-wrapper l grid lg-68-32">
+    <div class="l-wrapper l grid lg-68-32 <?php echo $class_colored_types; ?>">
     <?php while(have_posts()) : the_post(); ?>
 
     <main>
