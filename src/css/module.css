@@ -317,7 +317,7 @@ main h2.section-heading {
   top: 0;
 }
 .fyn-wrapper {
-  transform: scale(6) translate(-100px, -130px);
+  transform: scale(6) translate(-80px, -130px);
 }
 @media screen and (min-width: 700px) {
   .fyn-wrapper {

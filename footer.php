@@ -2,7 +2,7 @@
     <div class="l-wrapper l">
     
     <?php
-    $logo_in_footer = get_field('logo_in_footer');
+    $logo_in_footer = get_field('hff_single_settings');
 
     if ( $logo_in_footer && $logo_in_footer[0] == 'true') {
         get_template_part('template-parts/logo-bottom');
