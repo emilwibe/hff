@@ -3,7 +3,7 @@
     
     <?php
     $logo_in_footer = get_field('hff_single_settings');
-    var_dump($logo_in_footer);
+    //var_dump($logo_in_footer);
 
     if ( $logo_in_footer && $logo_in_footer[0] == 'true') {
         get_template_part('template-parts/logo-bottom');
