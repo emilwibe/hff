@@ -121,6 +121,9 @@
 /**
 * MAIN AREA
 */
+.colored-types .wysiwyg strong {
+  color: var(--color-yellow-dark);
+}
 .the_content.wysiwyg {
   grid-column: 6 / 16;
   padding: 10px;
