@@ -12,8 +12,6 @@
         if($colored_types[0] == 'true') {
             $class_colored_types = 'colored-types';
         }
-
-        //var_dump($colored_types);
         
     ?>
 
