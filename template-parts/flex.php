@@ -1,4 +1,4 @@
-<?php if ( have_rows('hff_flex_content') ) : ?>
+<?php if ( have_rows('hff_flex_content') ) : // INDEX ?>
 
     <?php while( have_rows('hff_flex_content') ) : the_row(); ?>
 
@@ -7,6 +7,8 @@
                 get_template_part( 'template-parts/flex-modules/img-wysiwyg' );
             } elseif (get_row_layout() == 'hff_wysiwyg_img') {
                 get_template_part( 'template-parts/flex-modules/wysiwyg-img' );
+            } elseif (get_row_layout() == 'hff_cta_wysiwyg') {
+                get_template_part('template-parts/flex-modules/cta-wysiwyg');
             }
         ?>
 
