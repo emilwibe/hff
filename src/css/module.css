@@ -210,6 +210,7 @@ main h2.section-heading {
 
 .hff-mod.hff-mod-cta-wysiwyg .cta-container {
   grid-column: 3 / 12;
+  grid-row: 1;
   margin-top: 16px;
 }
 .hff-mod.hff-mod-cta-wysiwyg .cta {
