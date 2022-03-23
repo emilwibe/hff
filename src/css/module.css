@@ -193,7 +193,7 @@ main h2.section-heading {
   display: block;
   font-size: 32px;
   font-weight: 300;
-  padding: 10px;
+  padding: 6px 10px;
   text-align: center;
   text-decoration: none;
   text-transform: uppercase;
@@ -233,7 +233,7 @@ main h2.section-heading {
   .hff-mod.hff-mod-img-wysiwyg .primary-img {
     grid-column: 2 / 12;
   }
-  .hff-mod.hff-mod-img-wysiwyg .wysiwyg {
+  .hff-mod.hff-mod-img-wysiwyg .wysiwyg, .hff-mod.hff-mod-cta-wysiwyg .wysiwyg {
     grid-column: 9 / 17;
   }
   .hff-mod .wysiwyg *:first-child {
@@ -260,7 +260,7 @@ main h2.section-heading {
   .hff-mod.hff-mod-img-wysiwyg .primary-img {
     grid-column: 2 / 16;
   }
-  .hff-mod.hff-mod-img-wysiwyg .wysiwyg {
+  .hff-mod.hff-mod-img-wysiwyg .wysiwyg, .hff-mod.hff-mod-cta-wysiwyg .wysiwyg {
     grid-column: 3 / 17;
     grid-row: 2;
   }
