@@ -256,7 +256,7 @@ main h2.section-heading {
   .hff-mod.hff-mod-img-wysiwyg .primary-img {
     grid-column: 2 / 12;
   }
-  .hff-mod.hff-mod-img-wysiwyg .wysiwyg, .hff-mod.hff-mod-cta-wysiwyg .wysiwyg {
+  .hff-mod.hff-mod-img-wysiwyg .wysiwyg {
     grid-column: 9 / 17;
   }
   .hff-mod .wysiwyg *:first-child {
