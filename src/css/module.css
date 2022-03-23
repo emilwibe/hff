@@ -224,6 +224,10 @@ main h2.section-heading {
   .hff-mod.hff-mod-cta-wysiwyg .cta-container {
     grid-column: 2 / 12;
   }
+  .hff-mod.hff-mod-cta-wysiwyg .wysiwyg {
+    grid-column: 3 / 17;
+    grid-row: 2;
+  }
 }
 
 .hff-mod .wysiwyg *:first-child {
@@ -279,7 +283,7 @@ main h2.section-heading {
   .hff-mod.hff-mod-img-wysiwyg .primary-img {
     grid-column: 2 / 16;
   }
-  .hff-mod.hff-mod-img-wysiwyg .wysiwyg, .hff-mod.hff-mod-cta-wysiwyg .wysiwyg {
+  .hff-mod.hff-mod-img-wysiwyg .wysiwyg {
     grid-column: 3 / 17;
     grid-row: 2;
   }
