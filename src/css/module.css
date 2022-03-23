@@ -209,9 +209,13 @@ main h2.section-heading {
 }
 
 .hff-mod.hff-mod-cta-wysiwyg .cta-container {
+  align-self: center;
   grid-column: 3 / 12;
   grid-row: 1;
   margin-top: 16px;
+}
+.hff-mod.hff-mod-cta-wysiwyg .wysiwyg {
+  align-self: center;
 }
 .hff-mod.hff-mod-cta-wysiwyg .cta {
   max-width: 360px;
