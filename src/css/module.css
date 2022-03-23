@@ -209,6 +209,12 @@ main h2.section-heading {
 }
 .hff-mod.hff-mod-cta-wysiwyg .hff-mod-cta {
   grid-column: 3 / 7;
+  margin-top: 16px;
+}
+@media screen and (max-width: 1200px) {
+  .hff-mod.hff-mod-cta-wysiwyg .hff-mod-cta {
+    grid-column: 3 / 8;
+  }
 }
 .hff-mod .wysiwyg *:first-child {
   margin-top: 0;
