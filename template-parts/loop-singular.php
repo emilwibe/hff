@@ -4,6 +4,8 @@
         $colored_types = get_field('hff_strong_types_colored');
         $class_colored_types = "";
 
+        var_dump($colored_types);
+
         if($colored_types[0] == 'true') {
             $class_colored_types = 'colored-types';
         }
