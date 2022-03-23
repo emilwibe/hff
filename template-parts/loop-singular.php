@@ -1,5 +1,8 @@
 <?php if (have_posts()) : ?>
 
+    <div class="l-wrapper l grid lg-68-32">
+    <?php while(have_posts()) : the_post(); ?>
+
     <?php
         $colored_types = get_field('hff_strong_types_colored');
         $class_colored_types = "";
@@ -14,10 +17,7 @@
         
     ?>
 
-    <div class="l-wrapper l grid lg-68-32 <?php echo $class_colored_types; ?>">
-    <?php while(have_posts()) : the_post(); ?>
-
-    <main>
+    <main class="<?php echo $class_colored_types; ?>">
         <div class="wysiwyg">
             <?php the_content(); ?>
         </div>
