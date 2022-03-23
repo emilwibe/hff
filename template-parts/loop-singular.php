@@ -9,9 +9,12 @@
 
         var_dump($colored_types);
 
-        if($colored_types[0] == 'true') {
-            $class_colored_types = 'colored-types';
+        if(array_key_exists(0, $colored_types)) {
+            if($colored_types[0] == 'true') {
+                $class_colored_types = 'colored-types';
+            }
         }
+        
         
     ?>
 
