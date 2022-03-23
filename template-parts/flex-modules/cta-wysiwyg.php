@@ -10,9 +10,9 @@
 
         <?php if (get_sub_field('hff_flex_cta_text') && get_sub_field('hff_flex_cta_url')) : ?>
 
-            <div class="cta-container">
+            <div class="cta-container hff-mod-cta">
         
-                <a href="<?php the_sub_field('hff_flex_cta_url'); ?>" class="cta hff-mod-cta" target="_blank"><?php the_sub_field('hff_flex_cta_text'); ?></a>
+                <a href="<?php the_sub_field('hff_flex_cta_url'); ?>" class="cta" target="_blank"><?php the_sub_field('hff_flex_cta_text'); ?></a>
 
             </div>
         <?php endif; ?>
