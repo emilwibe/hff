@@ -212,6 +212,9 @@ main h2.section-heading {
   grid-column: 3 / 12;
   margin-top: 16px;
 }
+.hff-mod.hff-mod-cta-wysiwyg .cta {
+  max-width: 360px;
+}
 .hff-mod .wysiwyg *:first-child {
   margin-top: 0;
 }
