@@ -227,6 +227,8 @@ main h2.section-heading {
   .hff-mod.hff-mod-cta-wysiwyg .wysiwyg {
     grid-column: 3 / 17;
     grid-row: 2;
+    margin-top: 20px;
+    z-index: -5;
   }
 }
 
