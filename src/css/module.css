@@ -216,6 +216,11 @@ main h2.section-heading {
     grid-column: 3 / 8;
   }
 }
+@media screen and (max-width: 1960px) {
+  .hff-mod.hff-mod-cta-wysiwyg .hff-mod-cta {
+    grid-column: 2 / 8;
+  }
+}
 .hff-mod .wysiwyg *:first-child {
   margin-top: 0;
 }
