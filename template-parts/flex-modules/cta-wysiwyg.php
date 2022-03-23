@@ -9,9 +9,12 @@
     <div class="grid grid-16 card-section">
 
         <?php if (get_sub_field('hff_flex_cta_text') && get_sub_field('hff_flex_cta_url')) : ?>
+
+            <div class="hff-mod-cta">
         
             <a href="<?php the_sub_field('hff_flex_cta_url'); ?>" class="cta" target="_blank"><?php the_sub_field('hff_flex_cta_text'); ?></a>
 
+            </div>
         <?php endif; ?>
 
         <?php if (get_sub_field('hff_wysiwyg')) : ?>
