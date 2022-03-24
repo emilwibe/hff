@@ -1,19 +1,23 @@
 <?php if (get_sub_field('hff_cta_singular_url')) : ?>
 
-    <a href="<?php the_sub_field('hff_cta_singular_url'); ?>" class="cta">
+    <div class="hff-cta">
 
-    <?php if(get_sub_field('hff_cta_singular_heading')) : ?>
+        <a href="<?php the_sub_field('hff_cta_singular_url'); ?>" class="cta">
 
-        <span class="cta-heading"><?php the_sub_field('hff_cta_singular_heading'); ?></span>
+            <?php if (get_sub_field('hff_cta_singular_heading')) : ?>
 
-    <?php endif; ?>
+                <span class="cta-heading"><?php the_sub_field('hff_cta_singular_heading'); ?></span>
 
-    <?php if(get_sub_field('hff_cta_singular_text')) : ?>
+            <?php endif; ?>
 
-        <span class="cta-text"><?php the_sub_field('hff_cta_singular_text'); ?></span>
+            <?php if (get_sub_field('hff_cta_singular_text')) : ?>
 
-    <?php endif; ?>
+                <span class="cta-text"><?php the_sub_field('hff_cta_singular_text'); ?></span>
 
-    </a>
+            <?php endif; ?>
 
+        </a>
+
+    </div>
+    <!--/.hff-cta-->$_POST
 <?php endif; ?>
