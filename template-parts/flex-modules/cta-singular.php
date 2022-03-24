@@ -1,6 +1,6 @@
 <?php if (get_sub_field('hff_cta_singular_url')) : ?>
 
-    <div class="hff-cta">
+    <div class="hff-mod-cta">
 
         <a href="<?php the_sub_field('hff_cta_singular_url'); ?>" class="cta">
 
@@ -19,5 +19,5 @@
         </a>
 
     </div>
-    <!--/.hff-cta-->
+    <!--/.hff-mod-cta-->
 <?php endif; ?>
