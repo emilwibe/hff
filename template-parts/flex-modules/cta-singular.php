@@ -12,7 +12,7 @@
 
             <?php if (get_sub_field('hff_cta_singular_text')) : ?>
 
-                <span class="cta-text"><?php the_sub_field('hff_cta_singular_text'); ?></span>
+                <br><span class="cta-text"><?php the_sub_field('hff_cta_singular_text'); ?></span>
 
             <?php endif; ?>
 
