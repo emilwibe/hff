@@ -19,5 +19,5 @@
         </a>
 
     </div>
-    <!--/.hff-cta-->$_POST
+    <!--/.hff-cta-->
 <?php endif; ?>
