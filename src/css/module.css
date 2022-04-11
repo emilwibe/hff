@@ -115,7 +115,9 @@
 * POST THUMBNAIL
 */
 .wp-post-image {
+  aspect-ratio: 4 / 1;
   display: block;
+  object-fit: cover;
   width: 100%;
 }
 /**
