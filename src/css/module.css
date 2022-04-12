@@ -117,6 +117,7 @@
 .wp-post-image {
   aspect-ratio: 4 / 1;
   display: block;
+  height: auto !important;
   object-fit: cover;
   width: 100%;
 }
