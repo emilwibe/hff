@@ -406,3 +406,8 @@ main h2.section-heading {
   color: #000;
   text-decoration: none;
 }
+@media screen and (max-width: 768px) {
+  .footer-widget {
+    grid-column: 1 / 17;
+  }
+}
