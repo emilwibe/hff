@@ -32,7 +32,6 @@
     }
     .page main, .post main {
         grid-column: 1 / 2;
-        padding-right: 20px;
     }
     .page aside, .post aside {
         align-self: flex-start;
@@ -47,9 +46,6 @@
     
     .lg-30-70 {
       grid-template-columns: 30% 70%;
-    }
-    .page main, .post main {
-        padding-right: 40px;
     }
     .page aside, .post aside {
         padding-left: 40px;
