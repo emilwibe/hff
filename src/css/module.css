@@ -159,7 +159,7 @@
   margin-top: 10px;
 }
 /* FLEX */
-.hff-mod-img img {
+.hff-mod-img img, .hff-mod img {
   display: block;
   height: auto !important;
   width: 100% !important;
@@ -389,7 +389,7 @@ main h2.section-heading {
 }
 .footer-widget {
   align-self: flex-start;
-  grid-column: 10 / 16;
+  grid-column: 4 / 16;
   margin-left: auto;
 }
 .footer-widget * {
