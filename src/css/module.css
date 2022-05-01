@@ -136,7 +136,7 @@
 }
 .logo-index {
   align-self: flex-start;
-  grid-column: 3 / 6;
+  grid-column: 2 / 5;
   height: auto !important;
   padding: 10px;
 }
@@ -177,7 +177,7 @@ main h2.section-heading {
   display: inline-block;
   font-size: 18px;
   font-weight: 400;
-  grid-column: 2 / 4;
+  grid-column: 1 / 4;
   margin-bottom: 0;
   padding-left: 10px;
   text-transform: uppercase;
@@ -205,7 +205,7 @@ main h2.section-heading {
   grid-row: 1;
 }
 .hff-mod.hff-mod-img-wysiwyg .primary-img {
-  grid-column: 3 / 12;
+  grid-column: 2 / 12;
 }
 .hff-mod.hff-mod-img-wysiwyg .wysiwyg,  .hff-mod.hff-mod-cta-wysiwyg .wysiwyg {
   grid-column: 10 / 16;
@@ -351,7 +351,7 @@ main h2.section-heading {
 }
 .logo-bottom {
   display: block;
-  grid-column: 1 / 5;
+  grid-column: 2 / 5;
   height: auto;
   max-width: 200px;
   width: 100%;
