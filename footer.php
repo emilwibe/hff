@@ -1,5 +1,6 @@
 <footer class="footer primary">
-    <div class="l-wrapper l">
+    <div class="l-wrapper xl">
+        <div class="grid grid-16">
     
     <?php
     $logo_in_footer = get_field('hff_single_settings');
@@ -13,6 +14,7 @@
     <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar("hff_footer_info") ) : ?>
     <?php endif;?>
 
+        </div>
     </div>
 
     <?php get_template_part( 'template-parts/fyn-decor' ); ?>
