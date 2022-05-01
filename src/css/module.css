@@ -223,6 +223,10 @@ main h2.section-heading {
 .hff-mod.hff-mod-cta-wysiwyg .cta {
   max-width: 360px;
 }
+
+.home .hff-mod + .home .hff-mod {
+  margin-top: 50px;
+}
 .cta-singular {
   max-width: 100%;
   width: 400px;
