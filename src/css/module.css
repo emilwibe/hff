@@ -389,7 +389,7 @@ main h2.section-heading {
 }
 .footer-widget {
   align-self: flex-start;
-  grid-column: 4 / 16;
+  grid-column: 4 / 17;
   margin-left: auto;
 }
 .footer-widget * {
