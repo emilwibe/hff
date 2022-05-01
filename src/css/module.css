@@ -42,9 +42,6 @@
   transform: translateX(0);
   transition: transform 0.4s;
 }
-.nav-is-open {
-  overflow: hidden;
-}
 @media screen and (min-width: 1140px) {
   .nav.primary {
     display: block;
@@ -402,7 +399,8 @@ main h2.section-heading {
 }
 @media screen and (max-width: 768px) {
   .footer-widget {
-    grid-column: 1 / 17;
+    grid-column: 1 / 16;
+    margin-top: 32px;
   }
   .logo-bottom {
     grid-column: 1 / 17;
