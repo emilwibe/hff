@@ -404,4 +404,8 @@ main h2.section-heading {
   .footer-widget {
     grid-column: 1 / 17;
   }
+  .logo-bottom {
+    grid-column: 1 / 17;
+    justify-self: center;
+  }
 }
