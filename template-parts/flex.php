@@ -16,6 +16,8 @@
 
 <?php elseif(have_rows('hff_flex_content_singular')) : ?>
 
+    <div class="flex-singular">
+
     <?php while(have_rows('hff_flex_content_singular')) : the_row(); ?>
 
         <?php
@@ -30,5 +32,7 @@
         ?>
 
     <?php endwhile; ?>
+
+    </div><!--/.flex-singular-->
 
 <?php endif; ?>
