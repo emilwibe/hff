@@ -19,7 +19,7 @@
     ?>
 
     <main class="<?php echo $class_colored_types; ?>">
-        <div class="wysiwyg">
+        <div class="not-front-page wysiwyg">
             <?php the_content(); ?>
         </div>
 
