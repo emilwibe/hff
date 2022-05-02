@@ -142,9 +142,17 @@
   height: auto !important;
   padding: 10px;
 }
-.not-front-page.wysiwyg {
-  padding-right: 40px;
+@media screen and (min-width: 670px) {
+  .not-front-page.wysiwyg {
+    padding-right: 20px;
+  }
 }
+@media screen and (min-width: 768px) {
+  .not-front-page.wysiwyg {
+    padding-right: 40px;
+  }
+}
+
 .wysiwyg a {
   color: var(--color-yellow-dark);
   text-decoration: none;
