@@ -12,7 +12,7 @@
 
             <div class="cta-container hff-mod-cta">
         
-                <a href="<?php the_sub_field('hff_flex_cta_url'); ?>" class="cta" target="_blank"><?php the_sub_field('hff_flex_cta_text'); ?></a>
+                <a href="<?php the_sub_field('hff_flex_cta_url'); ?>" class="cta"><?php the_sub_field('hff_flex_cta_text'); ?></a>
 
             </div>
         <?php endif; ?>
