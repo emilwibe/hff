@@ -225,9 +225,38 @@ main h2.section-heading {
   grid-column: 2 / 11;
 }
 
-.hff-mod-img-wysiwyg.hff-spacing-full .wysiwyg {
+
+
+
+.hff-mod.hff-spacing-full .wysiwyg {
+  margin-top: -28px;
+}
+.hff-mod.hff-spacing-full .primary-img {
+  grid-row: 1;
+}
+.hff-mod.hff-mod-img-wysiwyg.hff-spacing-full .primary-img {
+  grid-column: 2 / 16;
+}
+.hff-mod.hff-mod-img-wysiwyg.hff-spacing-full .wysiwyg {
+  grid-column: 3 / 17;
   grid-row: 2;
 }
+.hff-mod.hff-spacing-full .wysiwyg *:first-child {
+  margin-top: 0;
+}
+
+.hff-mod.hff-mod-wysiwyg-img.hff-spacing-full .wysiwyg {
+  grid-column: 3 / 17;
+  grid-row: 2;
+}
+.hff-mod.hff-mod-wysiwyg-img.hff-spacing-full .primary-img {
+  grid-column: 2 / 16;
+}
+
+
+
+
+
 .hff-mod.hff-mod-img-wysiwyg .wysiwyg,  .hff-mod.hff-mod-cta-wysiwyg .wysiwyg {
   grid-column: 9 / 16;
 }
