@@ -2,7 +2,7 @@
 
     <div class="cta-singular hff-mod-cta">
 
-        <a href="<?php the_sub_field('hff_cta_singular_url'); ?>" class="cta">
+        <a href="<?php the_sub_field('hff_cta_singular_url'); ?>" class="cta" target="_blank">
         <div>
 
             <?php if (get_sub_field('hff_cta_singular_heading')) : ?>
