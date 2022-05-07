@@ -1,4 +1,4 @@
-<div class="l-wrapper xl hff-mod hff-mod-wysiwyg-img">
+<div class="l-wrapper xl hff-mod hff-mod-wysiwyg-img hff-spacing-<?php the_sub_field('hff_full_width_content'); ?>">
     <?php if (get_sub_field('hff_section_heading')) : ?>
 
     <div class="grid grid-16">

@@ -224,6 +224,10 @@ main h2.section-heading {
 .hff-mod.hff-mod-img-wysiwyg .primary-img {
   grid-column: 2 / 11;
 }
+
+.hff-mod-img-wysiwyg.hff-spacing-full .wysiwyg {
+  grid-row: 2;
+}
 .hff-mod.hff-mod-img-wysiwyg .wysiwyg,  .hff-mod.hff-mod-cta-wysiwyg .wysiwyg {
   grid-column: 9 / 16;
 }
