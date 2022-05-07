@@ -235,10 +235,10 @@ main h2.section-heading {
   grid-row: 1;
 }
 .hff-mod.hff-mod-img-wysiwyg.hff-spacing-full .primary-img {
-  grid-column: 2 / 16;
+  grid-column: 2 / 15;
 }
 .hff-mod.hff-mod-img-wysiwyg.hff-spacing-full .wysiwyg {
-  grid-column: 3 / 17;
+  grid-column: 3 / 16;
   grid-row: 2;
 }
 .hff-mod.hff-spacing-full .wysiwyg *:first-child {
@@ -246,11 +246,11 @@ main h2.section-heading {
 }
 
 .hff-mod.hff-mod-wysiwyg-img.hff-spacing-full .wysiwyg {
-  grid-column: 3 / 17;
+  grid-column: 3 / 16;
   grid-row: 2;
 }
 .hff-mod.hff-mod-wysiwyg-img.hff-spacing-full .primary-img {
-  grid-column: 2 / 16;
+  grid-column: 2 / 15;
 }
 
 
