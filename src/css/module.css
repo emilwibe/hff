@@ -229,7 +229,7 @@ main h2.section-heading {
 
 
 .hff-mod.hff-spacing-full .wysiwyg {
-  margin-top: -28px;
+  margin-top: 0;
 }
 .hff-mod.hff-spacing-full .primary-img {
   grid-row: 1;
