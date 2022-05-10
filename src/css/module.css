@@ -195,10 +195,12 @@ main h2.section-heading {
   font-size: 18px;
   font-weight: 400;
   grid-column: 1 / 4;
-  margin-bottom: 0;
   padding-left: 10px;
   text-transform: uppercase;
   width: 200px;
+}
+main .hff-mod.hff-mod-img-wysiwyg h2.section-heading {
+  margin-bottom: 26px;
 }
 .hff-mod .wysiwyg {
   align-self: flex-start;
